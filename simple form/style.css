@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Ubuntu, sans-serif;
+}
+h1{
+    margin-bottom: 5px;
+}
+
+a{
+    text-decoration: none;
+    color:blue;
+}
+a:hover{
+    color: rgb(202, 84, 5);
+}
+
+#container{
+    padding-top: 10vh;
+    background-color: rgb(0, 1, 75);
+    width: 100%;
+    height: 100vh;
+}
+
+#form-wrap{
+    padding: 20px;
+    margin: auto;
+    background-color: white;
+    width: 350px;
+    border: 1px solid transparent;
+    border-radius:15px;
+}
+
+.form{
+    padding: 20px 0px;
+    font-size: 18px;
+}
+input{
+    width: 100%;
+    margin: 5px 0px 10px 0px;
+    padding: 8px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.header{
+    text-align: center;
+}
+
+.btn{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    border: 1px solid transparent;
+    background-color: rgb(10, 122, 71);
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(0, 184, 107);
+}
+
+.terms{
+    text-align: center;
+    line-height: 1.2rem;
+}
+
+.log-in{
+    width: 350px;
+    margin: auto;
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+    font-size: 14px;
+}
+
+.log-in a{
+    color:rgb(10, 122, 71);
+    font-weight: bold;
+}
